@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.big_container {
+  height: 900px;
+  width: 1200px;
+  background-color: rgba(0, 0, 255, 0.614);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.phone {
+  height: 633px;
+  width: 292.5px;
+  background-color: rgba(255, 255, 255, 0.721);
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+}
+.first {
+  margin-bottom: 100px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.fa-bars {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.acc {
+  background-image: url(./pexels-magali-guimarães-5504577.jpg);
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-top: 24px;
+  margin-right: 25px;
+}
+main {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.welcome {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 33px;
+
+  margin-top: 10px;
+}
+.hello{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  color: #00000045;
+  margin-left: 5px;
+}
+.array {
+  margin-top: 1px;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  height: 70px;
+  align-items: center;
+}
+.square {
+  height: 50px;
+  width: 50px;
+
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0px 1px 12px 1px #000000;
+}
+.room {
+  font-size: 18px;
+}
+.special {
+  background-color: rgba(0, 0, 255, 0.436);
+}
+.fa-angle-right {
+  font-size: 23px;
+}
+
+.circle{
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  background: linear-gradient(180deg, red, yellow,  aqua , blue, rgb(240, 192, 255));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-160px);
+  margin-top: 20px;
+  position: relative;
+}
+.small{
+  background-color: #d3d3ff;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.indicator{
+  height: 45px;
+  background-color: white;
+  width: 6px;
+  border-radius: 5px;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 100px;
+  right: 21px;
+}
+img {
+  height: 240px;
+  position: absolute;
+  top:220px;
+  left: 140px;
+
+}
+.prog{
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+.fr{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.bright{
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 45px;
+  width: 247px;
+  background: linear-gradient(270deg, black, white);
+  border-radius: 12px;
+  margin-top: 25px;
+}
+.bar{
+  height: 45px;
+  background-color: white;
+  width: 6px;
+  border-radius: 5px;
+  margin-left: 70px;
+}
+.homeImage{
+  font-size: 30px;
+  margin-top: 10px;
+}
+.google{
+  background: url(./imgbin_google-home-voice-command-device-amazon-echo-google-assistant-png.png);
+  width:197.25px ;
+  height: 266.5px;
+  background-size: cover;
+  margin-top: 20px;
+  transform: translateX(-70px);
+}
+.volume{
+  height: 170px;
+  width: 5px;
+  background-color: #0000006a;
+  position: absolute;
+  top: 150px;
+  border-radius: 60px;
+  right: 30px;
+  
+}
+.cerc{
+  border-radius: 50%;
+  margin-top: 50px;
+  height: 10px;
+  width: 10px;
+  transform: translateX(-2.6px);
+  background-color: #000000;
+}
+.fa-power-off, .fa-wifi, .fa-volume-xmark{
+  font-size: 30px;
+  color: #d3d3ff;
+}
+.patrat{
+  background-color: #000000;
+  height: 80px;
+  width: 75px;
+  display: grid;
+  place-items: center;
+  border-radius: 30px;
+}
+.mute{
+  background-color: #d3d3ff;
+  border: solid 2px black;
+}
+.fa-volume-xmark{
+  color: #000;
+}
+.grid{
+  display: flex;
+  justify-content: space-between;
+}
+.jos{
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  overflow: hidden;
+}
+.time{
+  display: flex;
+}
+.start{
+  height: 7px;
+  width: 100px;
+  background-color: #000;
+  border-radius: 20px;
+}
+.stop{
+  height: 7px;
+  width: 150px;
+  background-color: rgb(0, 0, 0);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: -5;
+
+}
+.control{
+  margin-left: 35px;
+  margin-top: 30px;
+}
+.fa-angles-left,.fa-angles-right,.fa-caret-right{
+  font-size: 35px;
+  margin-left: 20px;
+}
+.fa-angles-left,.fa-angles-right{
+  color: rgba(0, 0, 0, 0.548);
+}
+.fa-caret-right{
+  font-size: 40px;
+}
+.title{
+  margin-left: 20px;
+  margin-top: 5px;
+}
